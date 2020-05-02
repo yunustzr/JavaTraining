@@ -68,7 +68,7 @@ Cevap C
 
 21. "7" tırnaklar arasındaki ifade string veri türünü ifade edilir.
     "7" kadar olan kısım toplanır.String birleştirme yapılır.Sondaki sayılarıda toplayıp ekrana basan koddur.
-Cevap C
+Cevap B
 
 22. İki sayı arasındaki farkı bulmak için '-' operatoru kullanılır.
     iki sayının bir birine bölümünden kalanı '%' bulmak için operatorü kullanılır.
