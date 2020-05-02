@@ -23,7 +23,7 @@ Cevap=C
 
 6.  İlk ifade değişken atamasında 5 degeri 5 değerine eşit ise 'true' da 3 değerini atıyor değikenimize.
     ++thatNumber önce değişkenini 1 artırıyor.if kontrolünde false olur else kısmına devam eder.
-Cevap D    
+Cevap B    
     
 7. Switch Case ifadesinde şartın saglanması durumunda case deger: ifadesi gerçekleşir.'break;' ifadesi ile döngüden çıkmasını sağlar.Yazılmaması durumunda da program hata vermez çalışır.Default daki mesajı da ekrana basar.
 
