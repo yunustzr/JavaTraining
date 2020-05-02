@@ -1,0 +1,170 @@
+1. Switch case ifadesinde kullanılacak değişken tamsayı olmak zorundadır.
+Tamsayı olmayan float ve double desteklememektedir.
+Cevap B
+
+2. Termany operatoru '?' if yerine kullanılan kod karmaşası oluşmamasını hedefleyen kullanım şeklidir."Şart ? 1:2 " kullanım şekli şart true ise 1 işlemi gerçekleştiriyor.
+Cevap D
+
+3. String ifadeleri karşılaştırma yaptığımızda eşittir '==' ifadesi kullanırız.Bunun yanı sıra 'equals','compareTO' ifadeleri var.
+'==' ifadesi kullandığımız da aslında değer eşit mi değil mi diye kontrol yapmıyor.Nesne nin aynı refarans ta olup olmadığına bakıyor.
+Aynı refaransta olmadığında '==' bu ifade de false sonuç döndürür.
+Örnek-) String a=new String("yt");
+       	String b=new String("yt");
+       	System.out.print(a==b);//FALSE döner aynı değere sahip ama '=='operatorü refarans değerinin aynı olup olmadığını kontrol eder.
+True donmesini istiyorsak bu örneğin kontrolü equals la gerçekleştirmeliyiz.
+O yüzden b değişkenimiz String Havuzundan değil Heap’den referans aldığı ama a’nın referansı String Havuzunda olduğu için false sonucunun döndürüldüğünü görürüz.       	
+Cevap C
+
+4. Sorudaki kodu yazdığımızda hata oluyoruz.Nedeni 3 lü kontrol sistemi gerçekleştirildiğinde if,else if,else şeklinde kullanımı yapmamız gerekir.Burada if,else,else şeklinde kullanımından dolayı hata alıyoruz.
+Cevap B
+
+5. Switch case ifadesinde default kısmı deger almaz.Case ifadelerinde kontrolün gerçekleşmemesi durumunda mesaj vermek için kullanılır.Case den sonra illa kullanılması gerekmez isteğe bağlıdır.Case kontrolünden önce bilgi verme mesajı için de kullanılır.
+Cevap=C
+
+6.  İlk ifade değişken atamasında 5 degeri 5 değerine eşit ise 'true' da 3 değerini atıyor değikenimize.
+    ++thatNumber önce değişkenini 1 artırıyor.if kontrolünde false olur else kısmına devam eder.
+Cevap D    
+    
+7. Switch Case ifadesinde şartın saglanması durumunda case deger: ifadesi gerçekleşir.'break;' ifadesi ile döngüden çıkmasını sağlar.Yazılmaması durumunda da program hata vermez çalışır.Default daki mesajı da ekrana basar.
+
+8. Ternary operator çoğu dilde temiz kod yazmak ve tek satırlık if else yazımında kullanılır.
+Boolen ifade dondürür Örnek;int a=5 <=7 ? 3+2 : 0 şeklinde kodumuzda 7 den küçük olduğu için true dönderecek '3+2' işlemini gerçekleştirecek a değişkenine atama işlemini gerçekleştirecek.
+Cevap C
+
+9. Kod kısmındadır.
+Cevap C
+
+10. % operatorü bir ifadenin modunu almak için kullanılır.Soruda 6%3=0 bölümünden kalan 0 dır.
+0 ifadesi if içerisindeki şartı saglamafığından  triceratops--; işlemini gerçekleştirir.
+Cevap A-2 dir.
+
+11. A şıkkında if ifadesi başka ifadeye sahip olması gerekir. Yanlış else olmasa da kullanılır.
+    B şıkkında if else ifadesinde bir blok false döndüğünde o ifadenin satırlarında işlem  gerçekleşez.
+    C şıkkında bir nesneyi değerlendirmek için switch case metodu ,ternary operatorüyle de degerlendirebiliriz.
+    D Tek satırlı ifadede veya çoklu ifadelerde {} kullanılır.
+
+Cevap D
+
+12.Kod kısmındadır.
+
+13.Kod kısmındadır.
+
+14.Mantıksal ve && operatorü ile tabloya uluşılabilir.
+Cevap D
+
+15.Kod kısmındadır.
+
+16. Değikenimizin degerini önce artırmak için '++v' şeklinde kullanmamız gerekir.Değişken degerimizi return yani döndürdükten sonra işlemi gerçekleştirmek için 'v--' kullanılır.Önce kullanıldığında operator önce işlemi gerçekleştirir.Sonrasında kullanıldıgında ise işlem gerçekleşir sonra '+' veya '-' işlemine geçilir.
+Cevap B
+
+17. Kod kısmındadır.
+
+19. Ternary operatorün de kullanımında dönen veri true ,false değeri kontrolüdür. '?' ifadesiyle kontrol gerçekleştirilir. 'int day=4' değişkenine atanılan deger ternary operatoründe kontrol edilecek bir şart yok bu da bize boolean veri tipli veri girişinin olması gerektiği hatasını vermekte ,yapılan kodsal değişiklikle program çalıştırıldı.
+Burdaki çalışma mantığı ise iki ifadenin şartı sağlaması durumunda "Takeout",sadece birinin sağlaması durumunda "Saled" ,ikisinin de şartı sağlamaması durumunda "Leftovers" sonucunu dönderecektir.
+Cevap D
+
+20. Code compile edilemez.Açılan parantezlerin ')' kapatılması gerekir.Kapatılmadığından leaders değişkeninde hata almış olacağız.Düzeltme yapıldığında alınacak sonuç "To many" mesajı dır.
+Cevap C
+
+21. "7" tırnaklar arasındaki ifade string veri türünü ifade edilir.
+    "7" kadar olan kısım toplanır.String birleştirme yapılır.Sondaki sayılarıda toplayıp ekrana basan koddur.
+Cevap C
+
+22. İki sayı arasındaki farkı bulmak için '-' operatoru kullanılır.
+    iki sayının bir birine bölümünden kalanı '%' bulmak için operatorü kullanılır.
+Cevap B
+
+23. PartA değişkeni veri türü int oldugundan alacağı sonuç değeri tamsayı olmalıdır.Küsürat işleme dahil edilmez.
+    PartB de ise bölümünden kalan değeri bulmuş olacağız.
+Cevap B
+
+24. Switch Case ifadesinde istenilen şartı sağladığı CASE de işlem gerçekleşir.
+    Break ifadesi ile bitiriş sağlanmazsa default veya şartı sağlayan başka bir CASE deki işlemler gerçekleşir.
+Cevap B
+
+25. Oluşturulan travel fonksiyonu String bir metod dur geriye string bir değer döndermesi gerekir.
+    10 sayısı int bir deger olarak algıladığından compile etmiyecektir.
+Cevap C
+
+26. Refarence tiplerinde karşılaştırmalarında eşitlik kontrolünü "==" gerçekleştiririz.
+Değer tipi kontrolünde eşit olup olmadığının kontrolünü equals() fonksiyonu ile gerçekleştiririz.
+String ,new String arasındaki farkın sonucudur.
+Cevap A
+
+27. myTestVariable string değerinin boş olmadığını söylüyor.
+    equals() fonksiyonu ile deger null mu diye kontrolü gerçekleştirdiğimizde false dönecektir.
+Cevap B
+
+28. İf kontrolünde hata almamak için şart olması gerekiyor 
+    else if kısmında streets değişkeni için bir şart konulmadığı için boolean bir değer dönderemiyor.
+    Düzeltme yapıldığında ise çıkan sonuç 11 dir.
+Cevap D
+
+29. ---
+
+30. Termany operatoründeki temel mantık şart sağlaması vaye boolean veri tipi (true veya false)'ın dönmesidir.
+   *w değişkeni direk termany operatorün istediği veri tipini sağlar.
+Cevap B
+
+31. Kodumuzdaki oluşturduğumuz nesneyi String değişkenine atamış olduk bu durumda aynı refarence degere sahip nesne olmuş oldular.
+   * true true döner
+Cevap A
+
+32. İşlem önceliğine göre işlemi yaparsak önce parantez içindeki toplama yapılır sonra çarpma yapılır.
+    * 18%2 sonra modu alınır.Burdan sıfır buluruz.
+    * 12+0
+Cevap B
+
+33. true,false dir.
+Cevap D
+
+34. 
+
+35. Operator öncelik sırası çarpma bölme mod alma ve daha sonra toplama çıkarma şeklindedir.
+Cevap C
+
+36. XOR kapısı iki boolean veri türünde ki değişkeni karşılamak için kullanılır.
+Cevap D
+
+37. [X U Y] yi ifade eder.Mantıksal kapılarda bunu X || Y diye ifade edilir.
+Cevap C
+
+38. Case ifadelerinde sabit bir ifade yada değişken olmalıdır.Değişkenimizi final ibaresi ile sabit bir değişken olarak tanımlarsak CASE ifadesinde değişken kullanımı da sağlamış oluruz.
+Cevap D  
+
+39. Cevap C
+
+40. Termany operator kullanımı ve matamatiksel öncelik işlemi işleyişi gerçekleşmiş kod betiği.
+Cevap B
+
+41. Termany operator kullanılarak kontrol gerçekleştirilmiş.Fonksiyona gönderilen degerlerin 5 ten küçük olması nedeniyle dönen degerler false olacak.
+Cevap A
+
+42. spinner değişkenine true degeri atanıyor.İf şartı sağlanıyor anlamına geldiğinde if bloku içinde değişken dönüyor.
+Cevap A
+
+43. Mantıksal ifadalerde 'veya ||' operatorüründe herhangi biri koşulu sağlıyorsa sonuç dogrudur.
+! ünlem ise tersini true ise false ,false true ya döner.
+Cevap D
+
+44. Termany operator işlemleri
+Cevap A
+
+45.
+
+46.'java.lang.ArrayIndexOutOfBoundsException' code da hata almayız ama Exception alırız buda olmayan bir dizi elemanına ulaşmamızdan kaynaklanıyor.
+Cevap B
+
+47. Hata alırız compile edilmez kod '!' işareti tersini almaya yarar tamsayının tersi bulunmamaktadır.
+    Boolean veri tipi olsaydı hata olmazdı '!' operatoründe.
+Cevap D
+
+48. W || Z veya operatörün de değerlerden biri sağlıyorsa sonuç doğruyu verir.Ancak iki ifadenin de yanlış olması durumunda yanlış ifadesini alırız.
+Cevap C
+
+49. Cevap A
+
+50. game değişkeni String türün de tanımlanmış veridir Termany operatoründe çıkan sonuç un da String olması gerekmektedir.
+   *p1 satırında çıkan sonuçu string olarak dönmesini sağladığında compile edilecektir.
+   * Code compile edilmesi durumunda sonuç 'Swim' çıktısıdır.
+Cevap C
