@@ -1,0 +1,156 @@
+1- Araştırmalarım da Java 5 ile gelen özellik olan varargs tek metoda istediğin kadar parametre yollayarak sonuç almanı sağlayan güzel bir özelliktir.
+Kod olarak örnek verilmiştir.
+Cevap B 
+
+2- Varangs parameter tek bir metod daki değişkene birden fazla verinin gönderilmesi sağlıyor. Bu veri array olarak tutulur.
+Bu veriyi kullanmak için dizilerde ilk endex 0 dan başlar f[0] la ilk degeri almış bulunuruz.
+Kod olarak örnek verilmiştir.
+Cevap B
+
+3. Diziler bir nesnedir.New ile oluşturulur.
+Cevap D
+
+4. Kod kısmındadır.
+Cevap C
+5. Varangs tanımlamalarında bir metoda birden fazla veri gönderimi söz konusundur.Varangs aynı dizi (Array) mantığıyla çalışır.Array tanımlamalarında ise nesneyi new ile oluşturmak ve nesneye ondan sonra tanımlamalar yapmak gerekir.
+Cevap C
+
+6. Array de oluşuturulan dizi boyutunu ögrenmek için nesne tanımlamasıyla kullandığımız nesne değikeni nokta length diyerek ögreniriz.
+Cevap A
+
+7. Kod kısmındadır.
+Cevap C
+
+8. Kod kısmındadır.
+Cevap B
+
+9. Cevap B 
+
+10. Array sort fonksiyonu sıralama algoritmasıdır.Sıralama işlemini gerçekleştirdikten sonra
+Array toString fonksiyonu ile ekrana basar.
+String bir array oldugundan sıralama yaparken verilen degerlerin ASCII değeri baz alınarak sıralanmıştır.
+Cevap B
+
+11. Kod kısmındadır.
+Cevap B
+
+12. Kod kısmındadır. 
+Cevap D
+
+13. Legal Array tanımlaması 1 tane yapılmıştır
+Cevap B
+
+14. A.Array sortla sıralama yaptığında işlem gerçekleşme süresi daha kısadır.
+    B.Array sortla sıralama gerçekleştirmeden arama yapılabilir.
+    C.Doru sonuç alabilmek adına önce sıralama yapılması grekir.
+Cevap D
+
+15. Yapamadım.
+
+16. Kod kısmındadır.
+Cevap D
+
+17. Array sort la sıralama algoritması string veri tipinde sıralama yapar.binarySearch fonksiyonu dizinin herhangi bir elemanını hangi index te oldugunu bulur.
+Cevap B
+
+18. Kod kısmındadır.
+Cevap A
+
+19.new ifadesi yeni nesne object oluşturmak için kulanırız.
+Reference tipi veri oluşturalarak lotto[] dizi sine reference tipli veri oluşturulur.
+Cevap B
+
+20. Kod kısmındadır.
+Cevap B
+
+21. Kod kısmındadır.
+Cevap A
+
+22. ArrayIndexOutOfBoundsException hatası fırlatır.İndex in sınırları dışında bir veri girmeye çalışmamızdan dolayı hata alırız.
+Cevap D 
+
+23. Kod kısmındadır.
+Cevap C
+
+24. Veri tipi tanımladıkdan sonra bu ister dizi yada değil değişkenleri aralarında virgülle ayırarak tanımlama yapabiliriz.Satırın bittiğini ';' ifadesi belirtir.
+Cevap C
+
+25. Dizinin herhangi bir elemanı belirterek çıktı almak yerine oluşturduğumuz değişkeni yazdığımızda "[Ljava.lang.String;@7a81197d" çıktısını verir bu değişkenimizin hangi sınıfa ,hangi değişkene ve dizi olduğu gibi bilgileri bize döndürür.
+Cevap C
+
+26. Dizinin boyutlarının dışında bir indekse veri girilmeye çalışıldığından hata alırız.
+Cevap B
+
+27. Kod kısmındadır.
+Cevap D
+
+28. Kod kısmındadır.
+Cevap D
+
+29. Kod kısmındadır.
+Cevap C
+
+30. Java olarak console dan derleyerek deger gönderdiğimizde Array hatası almayız.
+*Eclipse üzerinden bu işlemi yapmak istersek 
+*Run->Run Configuration->Arguments takip edilerek FirstName Wolfie arguments girdiğimizde çıktı alırız aksi halde hata alırız.
+Cevap B
+
+31. Java veya bir argument göndermezsek alacağımız lenght 0 dır.
+Cevap A
+
+32. Kod kısmındadır.
+Cevap A
+
+33. Kod kısmındadır.
+Cevap D
+
+34. 2 boyutlu bir dizidir.İndeks 'in 0 dan başladığı için 3 elemanı bize veren indeks 2 dir.
+Cevap C
+
+35. For döngüsünde döngü 1 den başlayarak dizi içerindeki veri output olarak yazmakta dizi indeks 0 dan başlamadığı için "Sunday"'i yazmayacak.
+İndeks sınırları dışında bir veriye ulaşmaya çalıştığından son veriyi yazdıkdan sonra hata fırlatacak
+Cevap D
+
+36.java firstname Wolfie degerini argument olarak gönderdiğimizde 0 indeks FirsName dir.1 indeks ise wolfie
+Cevap B
+
+37. Kod kısmındadır.
+Cevap D
+
+38. Java count 1 2 olarak arguman gönderdiğimizde dizinin boyutu 2 dir.
+Cevap C
+
+39. Kod kısmındadır.
+Cevap B
+
+40. Yapamadım
+
+41. Binary search verinin hangi indexte olduğunu verir bize 0 Mac,1 linux,2 windows tur.
+Cevap B
+
+42. Kod kısmındadır.
+Cevap B
+
+43. Kod kısmındadır.
+Cevap A
+
+44. java olarak argument olarak firstname gonderdigimizde,çıktı olarak firstname alırız.
+Cevap A
+
+45. Diziler 0 indeksten itibaren degerleri tutar.
+For döngüsü 1 ile baslatıldıgından 6 tane veri ciktisi olur.
+Cevap A 
+
+46. Kod kısmındadır.
+Cevap C
+
+47. Kod kısmındadır.
+Cevap A
+
+48. public static void main(String[] args) -> public static void main(String... args) sistem çagrısını değiştirebiliriz hata vermez aynı şekilde tam tersi durumda da kode çalışır.
+Cevap C
+
+49. Cevap B
+
+50. Kod kısmındadır.
+
